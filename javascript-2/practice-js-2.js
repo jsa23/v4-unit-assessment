@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+var gitDefinition = 'Location of local files on your computer? Seperate from GitHub'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+var gitHubDefinition = 'A cloud based server where users can upload things from there local comupters to the cloud for others to use'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,15 +33,20 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
-
+var init = {
+    description: 'a command to create a repository on your local computer',
+    code: 'git init'
+}
 //////////////////PROBLEM 4////////////////////
 /*
     Create an object called 'clone' with 'description' and 'code' properties 
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+var clone = {
+    description: 'copys a repository to your local computer so you can change things without changing the main branch',
+    code: 'git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +54,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: 'checks the status of you git in relation to github',
+    code: 'git status'
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +65,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+var add = {
+    description: 'adds any commits to your changes to be logged by github?',
+    code: 'git add'
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +76,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+var commit = {
+    description: 'logs the changes to your code along with a message (a screenshot of what you have done since your last commit',
+    code: 'git commit -m message'
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +87,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+var addRemote = {
+    description: 'adds a location you want on your repository?',
+    code: 'git remote add origin'
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +98,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+var push = {
+    description: 'pushes any commited changes to github to whatever branch you have assigned',
+    code: 'git push'
+}

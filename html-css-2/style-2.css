@@ -1,0 +1,147 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+header { 
+    background-color: aqua;
+    padding-top: 60px;
+    margin: 0px;
+    height: 5; 
+    width: 90;
+    text-align: left;
+}
+
+h1 {
+    padding-bottom: 60px;
+    margin: 0px;
+    height: 1vh;
+    width: 90;
+    align-content: center;
+    margin-left: 10px;
+}
+.container-one {
+    border: 1px dashed black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.square-one {
+    height: 90px;
+    width: 300px;
+    background-color: purple;
+    display: inline-block;
+    border: 5px solid red;
+    margin: 5px;
+}
+
+.square-two {
+    width: 100px;
+    height: 90px;
+    padding: 5px;
+    display: inline-block;
+    background-color: rgb(26, 37, 192);
+    margin: 0 50px;-webkit-box-shadow:3px 3px 5px 0px rgb(0,0,0,0.75) ; 
+    -moz-box-shadow: 3px 5px 5px 0px  rgb(0,0,0,0.75);
+    box-shadow: 3px 5px 5px 0px rgb(0,0,0,0.75);
+}
+
+.square-three {
+    width: 170px;
+    height: 150px;
+    padding: 25px;
+    display: inline-block;
+    background-color: rgba(255, 0, 221, 0.801);
+    margin: 0px;
+    border: 1px solid black;
+}
+
+
+.circle {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: rgb(247, 248, 248);
+    display: block;
+    border: 1px solid black;
+}
+
+.circle1 {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid black;
+}
+
+.circle2 {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    border: 1px solid black;
+}
+
+
+.container-two {
+    border: 1px dashed black;
+    padding: 30px;
+    box-sizing: border-box;
+    margin: 10px
+}
+
+.box-shadow {
+    width: 300px;
+    height: 260px;
+    background-color: lemonchiffon;
+    border: 1px solid black;
+}
+
+.container-three {
+    border: 1px dashed black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 15px;
+}
+
+.container-three h1 {
+    width: 100%;
+    text-align:center;
+    color: navy;
+    letter-spacing: 10px;
+}
+
+.circle4 {
+    height: 225px;
+    width: 225px;
+    border-radius: 50%;
+    background-color: rgb(22, 165, 34);
+    display: block;
+    border: 1px solid black;
+}
+
+.square5 {
+    height: 150px;
+    width: 150px;
+    background-color: brown;
+    margin: 35px;
+}
+
+#Bottom {
+    font-size: 25px;
+    position: absolute;
+    bottom: 110px;
+    margin-left: 20px;
+    color: white;
+}

@@ -1,17 +1,17 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
 
-//CODE HERE 
+var myName ='Jordan'
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+var faveNum = 23
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+var lovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +19,11 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+function sum(num1,num2) {
+  return num1+num2
+}
+
+
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -29,7 +33,9 @@
   If 'data' is a falsy value, return a false boolean.
 */
 
-//CODE HERE
+function trueOrFalse(data) {
+  
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -39,7 +45,9 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+function oddChecker(num) {
+  
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -48,7 +56,7 @@
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
+
 
 
 //////////////////PROBLEM 8////////////////////
@@ -56,12 +64,13 @@
 
 const faveColors = ['red', 'green', 'black']
 
-//CODE HERE
+let colorCopy = faveColors.slice()
+console.log(colorCopy)
 
 //////////////////PROBLEM 9////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
 
-//CODE HERE
+colorCopy.push('cyan')
 
 //////////////////PROBLEM 10////////////////////
 /*
@@ -71,7 +80,7 @@ const faveColors = ['red', 'green', 'black']
 
 const numbers = [1, 2, 3, 4, 5]
 
-//CODE HERE
+
 
 //////////////////PROBLEM 11////////////////////
 /*
@@ -87,7 +96,13 @@ const numbers = [1, 2, 3, 4, 5]
   For example: 'Hello! My name is Joseph and I live in Utah"
 */
 
-//CODE HERE
+var me = {
+  firstName: 'Jordan',
+  state: 'Utah',
+  age: 27,
+}
+
+
 
 //////////////////PROBLEM 12////////////////////
 /* 
@@ -102,7 +117,9 @@ const numbers = [1, 2, 3, 4, 5]
   Return the answers array inside of the function.
 */
 
-// CODE HERE
+var bigOrSmall = function() {
+
+}
 
 //////////////////PROBLEM 13////////////////////
 /* 
@@ -114,7 +131,8 @@ const numbers = [1, 2, 3, 4, 5]
   Finally, return the 'reversed' array variable.
 */
 
-//CODE HERE
+function arrayReverser() {
+}
 
 //////////////////PROBLEM 14////////////////////
 
@@ -140,16 +158,16 @@ function secondFunction() {
 */
 
 //This array should contain the variable names (as strings) accessible in the global scope.
-let globalScope = ['global', 'inner', 'outer', 'functional']
+let globalScope = ['global']
 
 //This array should contain the variable names (as strings) accessible in the firstFunction function.
-let firstFunctionScope = ['global', 'inner', 'outer', 'functional']
+let firstFunctionScope = ['global','outer']
 
 //This array should contain the variable names (as strings) accessible in the innerFunction function.
-let innerFunctionScope = ['global', 'inner', 'outer', 'functional']
+let innerFunctionScope = ['global', 'inner', 'outer']
 
 //This array should contain the variable names (as strings) accessible in the secondFunction function.
-let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
+let secondFunctionScope = ['global', 'functional']
 
 
 //////////////////PROBLEM 15////////////////////
@@ -158,7 +176,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Invoke the callback passing the first item in the array as an argument.
 */
 
-//CODE HERE
+function firstItem() {
+
+}
 
 //////////////////PROBLEM 16////////////////////
 /* 
@@ -168,7 +188,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Otherwise, invoke the callback passing in false.
 */
 
-//CODE HERE
+function isItBob() {
+
+}
 
 //////////////////PROBLEM 17////////////////////
 /*
@@ -177,7 +199,9 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   Then invoke the callback, passing in the doubled array.
 */
 
-//CODE HERE
+function giveMeDoubles() {
+  
+}
 
 //////////////////PROBLEM 18////////////////////
 /*
@@ -204,4 +228,4 @@ let secondFunctionScope = ['global', 'inner', 'outer', 'functional']
   }
 */
 
-//CODE HERE
+

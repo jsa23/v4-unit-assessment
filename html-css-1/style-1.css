@@ -1,0 +1,64 @@
+header {
+    background-color: salmon;
+    height: 10vh;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h1 {
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+    display: inline;
+}
+body {
+    padding: 0px;
+    margin: 0px;
+}
+h3 {
+    display: inline;
+    padding: 20px;
+}
+.container-one {
+    width: 90;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 44vh;
+    font-size: 30px;
+}
+
+.square-one {
+    height: 150px;
+    width: 50px;
+    background-color: purple;
+    display: inline-block;
+}
+
+.square-two {
+    width: 700px;
+    height: 200px;
+    padding: 5px;
+    display: inline-block;
+    background-color: forestgreen;
+    margin: 0 50px;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: skyblue;
+    display: inline-block;
+}
+
+.container-two {
+    width: 90;
+    border: 5px dotted black;
+    padding: 50px;
+    box-sizing: border-box;
+    margin: 10px;
+    height: 42vh;
+    font-size: 30px;
+}
